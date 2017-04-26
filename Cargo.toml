@@ -1,0 +1,9 @@
+[package]
+name = "hello-rocket"
+version = "0.1.0"
+authors = ["Eric Prykhodko <eprykhodko@getgoing.com>"]
+
+[dependencies]
+debt_tools = { git = "https://github.com/eprykhodko/debt_tools", branch = "convert-to-lib" }
+rocket = "0.2.4"
+rocket_codegen = "0.2.4"
