@@ -2,7 +2,7 @@
 name = "vd_rust"
 version = "0.1.0"
 dependencies = [
- "debt_tools 0.1.0 (git+https://github.com/eprykhodko/debt_tools?branch=convert-to-lib)",
+ "debt_tools 0.1.0 (git+https://github.com/BogBel/debt_tools)",
  "rocket 0.2.6 (registry+https://github.com/rust-lang/crates.io-index)",
  "rocket_codegen 0.2.6 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
@@ -24,7 +24,7 @@ dependencies = [
 [[package]]
 name = "debt_tools"
 version = "0.1.0"
-source = "git+https://github.com/eprykhodko/debt_tools?branch=convert-to-lib#164366b4d6e8a8d53b85636719d24c0183ea4fdf"
+source = "git+https://github.com/BogBel/debt_tools#0e5899553d257820d45793e4526e357329996b6a"
 
 [[package]]
 name = "httparse"
@@ -262,7 +262,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 [metadata]
 "checksum ansi_term 0.9.0 (registry+https://github.com/rust-lang/crates.io-index)" = "23ac7c30002a5accbf7e8987d0632fa6de155b7c3d39d0067317a391e00a2ef6"
 "checksum cookie 0.6.1 (registry+https://github.com/rust-lang/crates.io-index)" = "ce776927cd64cbe74ebd1d9b375edb9d1b6bfa808618ddf9548645e019ebdfbb"
-"checksum debt_tools 0.1.0 (git+https://github.com/eprykhodko/debt_tools?branch=convert-to-lib)" = "<none>"
+"checksum debt_tools 0.1.0 (git+https://github.com/BogBel/debt_tools)" = "<none>"
 "checksum httparse 1.2.2 (registry+https://github.com/rust-lang/crates.io-index)" = "77f756bed9ee3a83ce98774f4155b42a31b787029013f3a7d83eca714e500e21"
 "checksum hyper 0.10.9 (registry+https://github.com/rust-lang/crates.io-index)" = "94da93321c171e26481afeebe8288757b0501901b7c5492648163d8ec4942ec5"
 "checksum idna 0.1.1 (registry+https://github.com/rust-lang/crates.io-index)" = "6ac85ec3f80c8e4e99d9325521337e14ec7555c458a14e377d189659a427f375"
